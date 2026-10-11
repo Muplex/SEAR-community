@@ -1,0 +1,6 @@
+# Blank issues stay enabled: SEAR's 🐞 Report button opens /issues/new with the title and body already filled in.
+blank_issues_enabled: true
+contact_links:
+  - name: Question / help
+    url: https://github.com/Muplex/SEAR-community/discussions
+    about: 'Questions like "How do I…?" or "Is this normal?": ask in Discussions.'
