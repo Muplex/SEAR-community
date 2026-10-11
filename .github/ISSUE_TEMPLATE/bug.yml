@@ -1,0 +1,48 @@
+name: Bug
+description: Something went wrong. Best opened from SEAR's 🐞 Report button, which fills in the log and the details for you.
+title: "Report: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Opened by hand? Fill in what you can. SEAR's **🐞 Report** button (on a failed job, or ⚙ Settings → "Something wrong?")
+        writes all of this, with the log, and removes your paths and user name. Without a GitHub account: "Save the report"
+        and e-mail the file to sear.beta.reports@gmail.com.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you were doing, what you expected, what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SEAR version
+      description: ⚙ Settings → About
+      placeholder: 0.9.0-beta.2
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: FM3 firmware
+      placeholder: "13.00"
+  - type: input
+    id: windows
+    attributes:
+      label: Windows
+      placeholder: Windows 11 Home 24H2
+  - type: input
+    id: signature
+    attributes:
+      label: Error code
+      description: The `E-xxxxxxxx` code SEAR shows, if any — it lets SEAR find this report again.
+      placeholder: E-1a2b3c4d
+  - type: textarea
+    id: log
+    attributes:
+      label: Last lines of the log
+      description: The job's console (the band at the bottom of SEAR's page).
+      render: text
