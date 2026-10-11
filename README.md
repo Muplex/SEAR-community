@@ -21,8 +21,13 @@ Private beta, Windows only. The test builds go to invited testers. If you'd like
    sends nothing by itself. It also looks here for the same error (its `E-xxxxxxxx` code in the title): if it is
    already reported, add yours as a **comment** instead of a new issue.
 2. **By hand:** [open an issue](../../issues/new/choose) with the bug template.
-3. **Without a GitHub account:** use "Save the report" in SEAR and send the file by e-mail to the address in the
-   beta's read-me.
+3. **Without a GitHub account:** press "Save the report" in SEAR's report window and send the file by e-mail to
+   **sear.beta.reports@gmail.com**.
+
+## Updates
+
+SEAR's ⚙ Settings → "Check for updates" reads [`latest.json`](latest.json) here: the newest version and its notes.
+The download link of a new version comes from whoever gave you SEAR.
 
 ## Ideas and questions
 
@@ -45,7 +50,9 @@ segnalazioni, idee, domande, note di versione e guide per i tester. **Il codice 
 
 - **Segnalare un problema:** dentro SEAR premi **🐞 Segnala**. SEAR prepara la segnalazione senza i tuoi percorsi né
   il tuo nome utente, e da solo non invia nulla. Se l'errore è già segnalato, aggiungi la tua come commento. Senza
-  account GitHub: "Salva il rapporto" e invialo via email.
+  account GitHub: "Salva il rapporto" e invia il file a **sear.beta.reports@gmail.com**.
+- **Aggiornamenti:** ⚙ Impostazioni → "Cerca aggiornamenti" ti dice se è uscita una versione nuova; il link te lo dà
+  chi ti ha dato SEAR.
 - **Idee:** una issue con il modello *Idea*. **Domande:** le [Discussions](../../discussions).
 
 ---

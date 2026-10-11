@@ -1,0 +1,5 @@
+{
+  "version": "0.9.0-beta.1",
+  "date": "2026-10-11",
+  "notes": "First private beta: the portable folder (SEAR.cmd), English and Italian, the optional RoFormer separator and the cab measurement from the Home, bug reports saved as a file for testers without GitHub."
+}
