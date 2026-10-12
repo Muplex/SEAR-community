@@ -2,6 +2,8 @@
 
 **Sound-Estimation & Auto-Refinement** — get a recorded guitar tone on your FM3.
 
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&logoColor=white&style=for-the-badge)](https://paypal.me/Muplex)
+
 ```
         __     ♫
        |oo|           ╔════════════════════════════════════════════╗
@@ -101,7 +103,10 @@ in SEAR's folder.
 ## Support SEAR
 
 SEAR is free. If it helps your tone, a voluntary donation helps keep it growing:
-[paypal.me/Muplex](https://paypal.me/Muplex). Nothing in the app changes whether you donate or not.
+
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&logoColor=white&style=for-the-badge)](https://paypal.me/Muplex)
+
+[paypal.me/Muplex](https://paypal.me/Muplex) — nothing in the app changes whether you donate or not.
 
 ## In italiano
 
