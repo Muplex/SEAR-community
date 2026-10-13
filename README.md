@@ -43,8 +43,8 @@ SEAR's source code is not here. SEAR is free.
 
 > 🇮🇹 Più sotto c'è un riassunto in italiano.
 
-> **Status: beta, Windows only, FM3 firmware 13.00 only.** SEAR reads the firmware and refuses a version it has not been
-> validated on. It is tested on one FM3 so far: please report what goes wrong.
+> **Status: first public release, Windows only, FM3 firmware 13.00 only.** SEAR reads the firmware and refuses a version it
+> has not been validated on. It is tested on one FM3 so far: please report what goes wrong.
 
 ## What you need
 
@@ -60,10 +60,10 @@ SEAR's source code is not here. SEAR is free.
 
 ## Install
 
-1. Download the newest `SEAR-<version>.zip` from [Releases](../../releases) (a release appears there when it is out).
+1. Download the newest `SEAR-<version>.zip` from [Releases](../../releases).
 2. Extract the **whole folder** anywhere you like, for example in Documents. The path must not contain `%` or `^`.
-3. Double-click **SEAR.exe** (the squirrel). A window opens — keep it open while you use SEAR — and SEAR opens in your
-   browser.
+3. Double-click **SEAR.exe** (the squirrel). SEAR opens in your browser, and its icon appears next to the clock: click it to
+   open SEAR again, right-click it → **Quit SEAR** to close it.
 
 **Windows SmartScreen** may say *"Windows protected your PC"*: SEAR is not signed with a paid certificate yet. Click
 **More info** → **Run anyway**. Everything SEAR writes stays inside its folder (`data\`); to uninstall, delete the folder.
@@ -96,8 +96,8 @@ settings are kept. What changed in each version: [CHANGELOG.md](CHANGELOG.md).
 ## Privacy
 
 SEAR runs on your PC and its page is only on your own computer. It goes online only to check for and download updates
-(here, on GitHub), to look for an already-reported error, and — only if you turn them on — for band / album pictures
-(Wikipedia, MusicBrainz) or to install the optional RoFormer separator. No telemetry, no account. Details: the `EULA.md`
+(here, on GitHub), to look for an already-reported error, for band / album pictures (Wikipedia, MusicBrainz — on by
+default, off in ⚙ Settings) and, only if you ask for it, to install the optional RoFormer separator. No telemetry, no account. Details: the `EULA.md`
 in SEAR's folder.
 
 ## Support SEAR
