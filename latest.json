@@ -1,21 +1,21 @@
 {
-  "version": "1.0.1",
-  "date": "2026-10-13",
-  "notes": "First public release. High-gain parts: less compression and string noise (gain backed off, the final EQ's whole curve capped). The cab measurement on its own minimal chain with a live count. Downloads and signed automatic updates from GitHub Releases, SEAR without a console window, Stop and resume for long jobs, a faster RoFormer install.",
+  "version": "1.0.2",
+  "date": "2026-10-14",
+  "notes": "Effects the research only guessed stay off and a wah is never left on in a run; talk-box rigs can switch the Formant off; every scene of a song preset is checked at the end of a recall; the sound character next to the max reamps (24-65); a window that says what to do when a job fails for a reason you can fix.",
   "runtime": "594fbe4c9c4afc94",
   "assets": {
     "app": {
-      "name": "SEAR-update-app-1.0.1.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.1/SEAR-update-app-1.0.1.zip",
-      "size": 120699724,
-      "sha256": "554d73380bb4d9ac618912289d5393894efcbf5d8f2b1e493056f22816c6b6f0"
+      "name": "SEAR-update-app-1.0.2.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.2/SEAR-update-app-1.0.2.zip",
+      "size": 120707009,
+      "sha256": "946e1023a1f085e69ddb0d9ada4faf32b8219ab16149742db6c9c98a131970c6"
     },
     "runtime": {
       "name": "SEAR-update-runtime-594fbe4c9c4afc94.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.1/SEAR-update-runtime-594fbe4c9c4afc94.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.2/SEAR-update-runtime-594fbe4c9c4afc94.zip",
       "size": 271413633,
-      "sha256": "ab7683f4b2d519f75fac780f42ec53a926aee81784219232260427632e063dc6"
+      "sha256": "25ee297fc715ca0bc4688165880037f9c3f43d36de978e83b3f3dbe6e6dba002"
     }
   },
-  "signature": "sHlNwOwCDx/lT/nKdKFjeqrJ9z5XhhBmiz4IM30BKBuJc1a6gNGmsknoP3K5v1TWAUC1Exslkj60uN959KmMCg=="
+  "signature": "S0uXMupeRBB0ucm04zKAIPVAg7cEr7kubanc/zAXPY2umdFRtd/83CSWDIYULvklhrrickh+uiIeIGRXSvkaAA=="
 }

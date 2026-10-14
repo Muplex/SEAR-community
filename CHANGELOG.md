@@ -3,6 +3,36 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.0.2 — 2026-10-14
+
+**Rig research and screening**
+- **An effect the research only guessed is no longer switched on.** Each extra block in a research answer now says where
+  it comes from (a source about this recording, clearly heard on the record, or a guess); a guess is placed in the preset
+  but bypassed.
+- **A wah pedal is never left on during a run.** SEAR cannot move the pedal, and a wah parked at a random position
+  spoiled the tone. It stays in the preset, bypassed, for you to rock live.
+- The screening also tries the rig **without** each effect no source documents, and keeps it only if it sounds closer.
+
+**Talk box (Formant) rigs**
+- Fixed: rigs that switch the Formant off stopped at the screening ("bypass did not verify"). With a modifier on one of
+  its controls, the FM3 can ignore the block's bypass — even from the front panel. SEAR now lifts the modifier while the
+  Formant is off and puts it back when it is on.
+- **Song presets: every scene is checked again at the end of a recall.** A change made for a later scene could switch a
+  block in an earlier one (a talk box turned off in the intro after it had been checked). Now a recall that leaves a scene
+  different from its run stops and says so, instead of reporting success. Known limit: a talk box that is on in one scene
+  and off in another, with a modifier on its control, may not keep its per-scene state — the recall then tells you how to
+  fix it on the FM3.
+
+**Runs**
+- The new-run window shows the **sound character next to the max reamps**; "▶ Run every part" asks each part's character
+  too. The max reamps are now **24–65**.
+- A short dropout of the FM3's USB audio ends a run less easily: SEAR waits a second before recording again.
+- An ear tweak that only switches a block on or off now re-measures the listening level.
+
+**Messages**
+- When a job fails for a reason you can fix — FM3-Edit holding the USB port, the FM3 not found, a USB audio dropout,
+  an empty preset, the CPU limit, an unknown firmware… — a window says what happened and what to do.
+
 ## 1.0.1 — 2026-10-13 (the first public release)
 
 **Tone**
