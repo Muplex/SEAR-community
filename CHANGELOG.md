@@ -3,6 +3,28 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.0.3 — 2026-10-15
+
+**Runs**
+- **New: "Continue from the run in use".** A second run that starts from the part's run in use: its rig, cab and knobs,
+  with your ear's adjustments kept. No rig or cab screening. SEAR measures the run in use again, then searches where that
+  run did not get to: the knobs it left open, box edges, other levers. It takes about 4-6 minutes. The new run is kept
+  only if it beats the run in use by more than the noise; otherwise the run in use goes back on the FM3. It is the
+  default in the ▶ New run window for a part that already has a SEAR run in use.
+- **"Decide later" keeps the run you were using.** At the end of a run, the new run is no longer loaded until you choose it.
+- Each phase of a run now says why it ended, in plain words ("ended because the reamps ran out: it was still
+  improving", "gain lowered: with less gain the sound stays practically the same"…), instead of a single code word.
+- The screening table and the Setup card name each rig's **amp**, next to its cab.
+- Fixed: the rig grid could show a talk box (Formant) as on when the run had it bypassed.
+
+**Your own rig (🎛 My rig)**
+- **No preset number to type.** SEAR reads which preset is loaded on the FM3 when it measures and when you press "Save in SEAR".
+- **Your saved preset is always kept.** If the slot differs from what was measured, SEAR saves it anyway and lists the
+  differences. Fixed: a reverb such as "Room, Studio" was reported as a different model ("Studio").
+- In the Library's run list, each run is marked **"🎛 your rig"** (with its slot and name) or **"SEAR"**.
+
+This update also downloads a new runtime package: the FM3 connection learned to read the loaded preset's number.
+
 ## 1.0.2 — 2026-10-14
 
 **Rig research and screening**

@@ -1,21 +1,21 @@
 {
-  "version": "1.0.2",
-  "date": "2026-10-14",
-  "notes": "Effects the research only guessed stay off and a wah is never left on in a run; talk-box rigs can switch the Formant off; every scene of a song preset is checked at the end of a recall; the sound character next to the max reamps (24-65); a window that says what to do when a job fails for a reason you can fix.",
-  "runtime": "594fbe4c9c4afc94",
+  "version": "1.0.3",
+  "date": "2026-10-15",
+  "notes": "Continue from the run in use: a second run from the part's rig and knobs, kept only if it beats the run in use; Decide later keeps the run you were using; each phase says why it ended; the amp in the screening table; your own rig saved without typing its preset number, always kept, marked in the run list.",
+  "runtime": "c452d2e8e39854d0",
   "assets": {
     "app": {
-      "name": "SEAR-update-app-1.0.2.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.2/SEAR-update-app-1.0.2.zip",
-      "size": 120707009,
-      "sha256": "946e1023a1f085e69ddb0d9ada4faf32b8219ab16149742db6c9c98a131970c6"
+      "name": "SEAR-update-app-1.0.3.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.3/SEAR-update-app-1.0.3.zip",
+      "size": 120726677,
+      "sha256": "415bedb3020d7ce10df71ed2ebb1ca1a73ea0df002124c363ee173b799af206d"
     },
     "runtime": {
-      "name": "SEAR-update-runtime-594fbe4c9c4afc94.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.2/SEAR-update-runtime-594fbe4c9c4afc94.zip",
-      "size": 271413633,
-      "sha256": "25ee297fc715ca0bc4688165880037f9c3f43d36de978e83b3f3dbe6e6dba002"
+      "name": "SEAR-update-runtime-c452d2e8e39854d0.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.3/SEAR-update-runtime-c452d2e8e39854d0.zip",
+      "size": 271413882,
+      "sha256": "ed8235597c983bff9bf2f77cf4be6c16a7c66016ac97945966ecad8329d03740"
     }
   },
-  "signature": "S0uXMupeRBB0ucm04zKAIPVAg7cEr7kubanc/zAXPY2umdFRtd/83CSWDIYULvklhrrickh+uiIeIGRXSvkaAA=="
+  "signature": "fdrf5BfCfJUJVN3ohkzgffvLsRPh2Joz49dji/EZNQGjrOmyPtB4/Mh7Ys62EfsrIJAsPYdRGiimT5AqBLl7DQ=="
 }
