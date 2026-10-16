@@ -1,21 +1,21 @@
 {
-  "version": "1.0.3",
-  "date": "2026-10-15",
-  "notes": "Continue from the run in use: a second run from the part's rig and knobs, kept only if it beats the run in use; Decide later keeps the run you were using; each phase says why it ended; the amp in the screening table; your own rig saved without typing its preset number, always kept, marked in the run list.",
+  "version": "1.0.4",
+  "date": "2026-10-16",
+  "notes": "Ear tweaks: say what you hear (boxy, fizzy, thin, boomy, more or less gain, squashed, too dry or wet, too quiet or loud) and keep one of two ready-made corrections, reamped and compared with the record; a table of each run's tweaks, each one reversible; never more distorted than the record; a rig that starts very quiet reaches its listening volume.",
   "runtime": "c452d2e8e39854d0",
   "assets": {
     "app": {
-      "name": "SEAR-update-app-1.0.3.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.3/SEAR-update-app-1.0.3.zip",
-      "size": 120726677,
-      "sha256": "415bedb3020d7ce10df71ed2ebb1ca1a73ea0df002124c363ee173b799af206d"
+      "name": "SEAR-update-app-1.0.4.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.4/SEAR-update-app-1.0.4.zip",
+      "size": 120746254,
+      "sha256": "f68127bfaecdd563d62616722e0f700fc5ee67c47a01e0c65751c8787d4ad90c"
     },
     "runtime": {
       "name": "SEAR-update-runtime-c452d2e8e39854d0.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.3/SEAR-update-runtime-c452d2e8e39854d0.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.4/SEAR-update-runtime-c452d2e8e39854d0.zip",
       "size": 271413882,
-      "sha256": "ed8235597c983bff9bf2f77cf4be6c16a7c66016ac97945966ecad8329d03740"
+      "sha256": "d5802913ac52c817b05071c8bb4c579c90c16dcb35091bce4144b792e1969d0a"
     }
   },
-  "signature": "fdrf5BfCfJUJVN3ohkzgffvLsRPh2Joz49dji/EZNQGjrOmyPtB4/Mh7Ys62EfsrIJAsPYdRGiimT5AqBLl7DQ=="
+  "signature": "06ytUTsGELaAYze7rF+rXqgCrqnDneehjgqs1Dc0R+HlIRf8m5SF+m8YeHsSjICOGclw49bC9GDU+FyP89DLDg=="
 }

@@ -3,6 +3,37 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.0.4 — 2026-10-16
+
+**Ear tweaks — your tone, after SEAR's (new)**
+- **👂 Tweak by ear**, at the end of a run (on the run's page and in the "keep the new run?" window) and on every run in
+  the Library. SEAR gets you close to the record; your ear finishes it. Say what you hear, in a guitarist's words:
+  *Boxy*, *Fizzy / harsh*, *Thin*, *Boomy / flubby*, *Needs more gain*, *Too much gain*, *Squashed, no dynamics*,
+  *Too dry*, *Too wet*. SEAR reamps the run as it plays now and two ready-made corrections, **A touch** and **More**
+  (about 30 s), on the amp's own knobs and only the ones SEAR has validated: boxy opens the top and scoops the mids,
+  thin adds bass and middle, more gain turns the knob that actually makes the distortion, and so on.
+- Listen to each one next to the record, one at a time and at the same loudness; the button lit with ▶ is the one you
+  hear. An **"On the FM3"** box always says what the FM3 is playing: nothing changes until you keep a variant.
+- **Keep** it and it becomes that run's: **⟲ Recall now** puts it on the FM3, with the listening volume measured again.
+  The FM3 must hold that run for the reamps; if it doesn't, SEAR writes nothing and tells you to recall it first.
+- **Volume:** *Too quiet (+2 dB)* / *Too loud (−2 dB)* are saved on the run at once (no reamp: the comparisons are at the
+  same loudness on purpose); each press adds up, ±12 dB at most.
+- In the Library, a part's **"Ear tweaks"** row is now a small table: each tweak with its value before → after, and **✕**
+  to take it back.
+
+**Runs**
+- **Never more distorted than the record.** SEAR now measures how much each capture distorts (whatever the cab and EQ) and
+  compares it with the record. A rig, or a point of the search, clearly more distorted than the record is left out; if
+  every rig tried is, the research got the part's character wrong and the part is searched again as clean (not when you
+  chose the character yourself). Settings → "Never more distorted than the record".
+- **A rig that starts very quiet now reaches its listening volume.** When amp level and master are at their top and the
+  sound is still short, SEAR uses the room left on the final EQ's level, and checks it with one more reamp. A recall that
+  still ends short is measured again the next time instead of being reused.
+- A tweak never turns a gain knob below 1 (a clean amp turned all the way down goes almost silent).
+- If SEAR was updated while its page was open, the page now says to restart SEAR instead of a bare "not found".
+
+This update downloads only the app package: the runtime is unchanged.
+
 ## 1.0.3 — 2026-10-15
 
 **Runs**
