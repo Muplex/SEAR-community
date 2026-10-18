@@ -43,8 +43,33 @@ SEAR's source code is not here. SEAR is free.
 
 > 🇮🇹 Più sotto c'è un riassunto in italiano.
 
-> **Status: first public release, Windows only, FM3 firmware 13.00 only.** SEAR reads the firmware and refuses a version it
+> **Status: SEAR 1.0.5, Windows only, FM3 firmware 13.00 only.** SEAR reads the firmware and refuses a version it
 > has not been validated on. It is tested on one FM3 so far: please report what goes wrong.
+
+## What SEAR does
+
+- **Your songs, your takes.** Add a song from your PC (MP3, WAV, FLAC, M4A). Record your DI inside SEAR while the record
+  plays: SEAR measures the latency and places every take exactly in the song. You can change the record's key and speed to
+  practise. Every record starts at the same volume, set from its own loudness, and the file itself is never changed.
+- **The right 6 seconds.** SEAR tunes on a 6-second window of each section. It reads your take and proposes a window that
+  holds the ways you play in it: palm mutes, low notes, high notes, soft playing. Drag the window elsewhere and it tells
+  you what is left out.
+- **The rig research, with your own AI.** SEAR writes the question (the song, the rules it learned, the exact FM3 model
+  names). You paste the answer back and SEAR checks it.
+- **Tone match on your FM3.** SEAR screens the candidate rigs and all 2048 factory cabs (once measured on your FM3), then
+  tunes the knobs until no move is audibly better, and adds a final EQ. Clean, crunch and high-gain parts are handled
+  differently, and a rig more distorted than the record is never chosen. You watch it live and can stop it at any time.
+- **Continue instead of starting over.** A part that already has a good run continues from it: no new screening, about 4-6
+  minutes. This is the default for one part and for every part of a whole song.
+- **A whole song in one preset.** One scene per section (clean, rhythm, lead), each matched and leveled against the
+  others. **⟲ Recall** rebuilds it on the FM3 in about a minute and leaves alone the scenes that are already right.
+- **👂 Tweak by ear.** *Boxy*, *fizzy*, *thin*, *boomy*, *more gain*, *too wet*, *too quiet*… SEAR plays two ready-made
+  corrections on your FM3 for you to compare with the record. The one you keep stays with that run, and every recall applies
+  it again.
+- **🎸 Play along.** The record, or the record **without its guitar**, plays from the FM3 while you play through your song
+  preset, and SEAR **switches the scenes** at the points you marked on a coloured scene bar.
+- **🎛 Your own rig.** SEAR measures a preset you built yourself against the record, without writing anything into it.
+- **Tidy.** SEAR keeps only the files it needs. *Settings → Disk space* deletes the runs you don't use.
 
 ## What you need
 
@@ -115,6 +140,15 @@ sopra il disco, SEAR separa la chitarra del disco, prova dei rig sul **tuo** FM3
 e lascia il risultato nel preset di lavoro, che salvi tu. Questo repository è la casa pubblica di SEAR (download nelle
 Releases, note di versione, segnalazioni, idee, domande); il codice non è qui.
 
+- **Cosa fa:**
+  - registri la tua DI sopra il disco (MP3, WAV, FLAC, M4A, ognuno allo stesso volume);
+  - SEAR propone i 6 secondi che contengono i tuoi modi di suonare (palm-mute, note gravi e acute, parti piano);
+  - fa la ricerca del rig con la tua AI, poi lo screening dei rig e dei 2048 cab di fabbrica e la taratura delle manopole sul tuo FM3;
+  - un run già buono si continua invece di ripartire da zero;
+  - mette una canzone intera in un preset (una scena per sezione) con ⟲ Richiama;
+  - 👂 ritocchi a orecchio (*inscatolato*, *zanzaroso*, *magro*, *più gain*…);
+  - 🎸 **Suona con il brano**: il disco, anche senza la sua chitarra, esce dall'FM3 e SEAR cambia le scene nei punti che hai segnato;
+  - 🎛 misura un rig fatto da te.
 - **Serve:** Windows 10/11 a 64 bit, un FM3 con firmware 13.00 collegato via USB, **FM3-Edit aperto una volta con l'FM3
   collegato prima del primo avvio** (SEAR legge da lì le tabelle dei parametri dell'FM3), FM3-Edit chiuso mentre SEAR
   lavora, una tua chat AI (Claude o ChatGPT) per la ricerca del rig.
