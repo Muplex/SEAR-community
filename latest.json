@@ -1,21 +1,21 @@
 {
-  "version": "1.0.4",
-  "date": "2026-10-16",
-  "notes": "Ear tweaks: say what you hear (boxy, fizzy, thin, boomy, more or less gain, squashed, too dry or wet, too quiet or loud) and keep one of two ready-made corrections, reamped and compared with the record; a table of each run's tweaks, each one reversible; never more distorted than the record; a rig that starts very quiet reaches its listening volume.",
-  "runtime": "c452d2e8e39854d0",
+  "version": "1.0.5",
+  "date": "2026-10-18",
+  "notes": "Play along: the record (or without its guitar) from the FM3 with SEAR switching the song preset's scenes at your changes, its own key and speed; the record's volume set from its loudness for every song; M4A records read; faster recalls; scenes renamed in the Library; a clipping capture no longer stops the run.",
+  "runtime": "fb06413a2a4ab896",
   "assets": {
     "app": {
-      "name": "SEAR-update-app-1.0.4.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.4/SEAR-update-app-1.0.4.zip",
-      "size": 120746254,
-      "sha256": "f68127bfaecdd563d62616722e0f700fc5ee67c47a01e0c65751c8787d4ad90c"
+      "name": "SEAR-update-app-1.0.5.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.5/SEAR-update-app-1.0.5.zip",
+      "size": 120785891,
+      "sha256": "a41b9b7061cdde28effd09463cc8a4a88dbafebf8940d0c3b235d633b14c6d5e"
     },
     "runtime": {
-      "name": "SEAR-update-runtime-c452d2e8e39854d0.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.4/SEAR-update-runtime-c452d2e8e39854d0.zip",
-      "size": 271413882,
-      "sha256": "d5802913ac52c817b05071c8bb4c579c90c16dcb35091bce4144b792e1969d0a"
+      "name": "SEAR-update-runtime-fb06413a2a4ab896.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.5/SEAR-update-runtime-fb06413a2a4ab896.zip",
+      "size": 271413829,
+      "sha256": "517c01080307978c172776030024516f1c2c9b24c8b5d5da10563c141cde7408"
     }
   },
-  "signature": "06ytUTsGELaAYze7rF+rXqgCrqnDneehjgqs1Dc0R+HlIRf8m5SF+m8YeHsSjICOGclw49bC9GDU+FyP89DLDg=="
+  "signature": "NK4Ozc1j4uk5sA5ToTzCxFK/iiemZL1ELo/tAU9YzW3CyQzbVRSRdEc1NPgqP+DzytV3pzyVKj8sE66oqR/kAw=="
 }

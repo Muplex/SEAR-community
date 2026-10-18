@@ -3,6 +3,40 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.0.5 — 2026-10-18
+
+**🎸 Play along (new)**
+- **Play along** on a song's page: the record — or the record **without its guitar** — plays from the FM3 with your guitar
+  through the preset, in your headphones or monitors, as when you record the DI.
+- With a song preset, **SEAR switches the scenes for you** at the changes you place: press **1, 2, 3…** while you listen,
+  then drag the flags on the coloured scene bar above the track. Each scene has its own colour, the same everywhere in the
+  Library. Before every change SEAR checks the FM3 still holds the song's preset; with another preset loaded it stops
+  changing scenes and the record goes on. A scene you pick on the FM3 by hand stays until the next change.
+- Its own **key and speed** (only for playing along: the DI recording does not change), a loop, and **✂** to separate the
+  guitar in the whole song when only parts of it were separated.
+- The song's changes show as a bar in the Library, with a 🗑 to delete them.
+
+**Volume of the record**
+- The record now starts at the right volume for each song, in the DI recording and in Play along: SEAR measures how loud
+  the record is and brings every song to about the same level (the track itself is never changed). Move it and your
+  choice stays for that song; **Auto** brings back the measured one.
+
+**Songs**
+- **M4A / AAC records** (often downloaded from a video site, sometimes even with an .mp3 name) are now read, with
+  Windows' own decoders. A WAV or FLAC record with any file name is found.
+- **⟲ Recall** is faster: a scene the FM3 already holds as the last recall left it is not written again. Recall now sits
+  next to the song's title.
+- Scenes can be renamed in the Library by clicking their name; a rig research already made for the song is offered
+  instead of a new one; an imported research always lands on a real part of the song.
+
+**Runs and ear tweaks**
+- A capture that clips no longer stops the run: it is turned down and measured again.
+- Ear tweaks: several problems in one try, stronger "More" variants, how far each variant is from the run, − / + on a
+  saved tweak. On the Run page, the points set aside as too distorted for the record are drawn as red rings.
+- Settings → Disk space: delete every run not in use, with a confirmation.
+
+This update downloads the app package and the runtime package (the audio helper changed).
+
 ## 1.0.4 — 2026-10-16
 
 **Ear tweaks — your tone, after SEAR's (new)**
