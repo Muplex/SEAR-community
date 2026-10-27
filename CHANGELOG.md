@@ -3,6 +3,27 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.1.0 — 2026-10-27
+
+**FM9 (new)**
+- SEAR now works with the **FM9** (firmware 12.00) as well as the FM3: the tone match, the cab measurement and choice,
+  **⟲ Recall**, song presets (one scene per part), recording your DI inside SEAR and **🎸 Play along**. At its first start
+  SEAR finds which one you have from the editor on your PC (FM3-Edit or FM9-Edit).
+- Not on the FM9 yet: the extra blocks (wah, pitch, filter, compressor, talk box, modulations) and preset / scene names —
+  name them on the FM9 itself.
+- Play along: SEAR measures how long your device takes to change scene and starts each change that much earlier, so it
+  lands on the beat on the FM9 too.
+
+**Cabs**
+- A Cab block that kept the panning of one of your own presets (the guitar on one side only, a 2-cab blend split left and
+  right) is now always set back to the centre.
+- The cab measurement no longer stops on a cab that comes back too loud: it measures it again at once, more quietly. It
+  can also be resumed after a recall in between.
+- If you measured your cabs on an FM9 with an earlier test version, the Home asks you to measure them again, once
+  (~1 h 30): that measurement was made with the cab panned.
+
+This update downloads the app package and the runtime package (the audio helper changed).
+
 ## 1.0.5 — 2026-10-18
 
 **🎸 Play along (new)**
