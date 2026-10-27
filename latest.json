@@ -1,21 +1,21 @@
 {
-  "version": "1.0.5",
-  "date": "2026-10-18",
-  "notes": "Play along: the record (or without its guitar) from the FM3 with SEAR switching the song preset's scenes at your changes, its own key and speed; the record's volume set from its loudness for every song; M4A records read; faster recalls; scenes renamed in the Library; a clipping capture no longer stops the run.",
-  "runtime": "fb06413a2a4ab896",
+  "version": "1.1.0",
+  "date": "2026-10-27",
+  "notes": "FM9 support: the tone match, the cab choice, Recall, song presets, recording your DI and Play along now work on the FM9 (firmware 12.00); its extra blocks and preset / scene names are not available yet. A Cab block that kept your own preset's panning is now always centred; the cab measurement repeats a cab that comes back too loud more quietly instead of stopping, and resumes after a recall.",
+  "runtime": "adba6e002dffe4cf",
   "assets": {
     "app": {
-      "name": "SEAR-update-app-1.0.5.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.5/SEAR-update-app-1.0.5.zip",
-      "size": 120785891,
-      "sha256": "a41b9b7061cdde28effd09463cc8a4a88dbafebf8940d0c3b235d633b14c6d5e"
+      "name": "SEAR-update-app-1.1.0.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.1.0/SEAR-update-app-1.1.0.zip",
+      "size": 120829748,
+      "sha256": "c4554787447881315d958db4a5121c29e52a9fb1ac88fca61d1d120d7e724ed0"
     },
     "runtime": {
-      "name": "SEAR-update-runtime-fb06413a2a4ab896.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.0.5/SEAR-update-runtime-fb06413a2a4ab896.zip",
-      "size": 271413829,
-      "sha256": "517c01080307978c172776030024516f1c2c9b24c8b5d5da10563c141cde7408"
+      "name": "SEAR-update-runtime-adba6e002dffe4cf.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.1.0/SEAR-update-runtime-adba6e002dffe4cf.zip",
+      "size": 271503683,
+      "sha256": "5e0f681ad4c07e3b309a8d8e3b84357c8eec3e17ad607174b32316a2c20eac15"
     }
   },
-  "signature": "NK4Ozc1j4uk5sA5ToTzCxFK/iiemZL1ELo/tAU9YzW3CyQzbVRSRdEc1NPgqP+DzytV3pzyVKj8sE66oqR/kAw=="
+  "signature": "aog8HpwfiR4ypo7pxzh0xfRBG3TV2uxScTqs/zHszTvQStr43wjcBh6x4BNoos2uv19E5DX8gSH/B/XN7Ug2DA=="
 }
