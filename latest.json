@@ -1,21 +1,21 @@
 {
-  "version": "1.1.0",
-  "date": "2026-10-27",
-  "notes": "FM9 support: the tone match, the cab choice, Recall, song presets, recording your DI and Play along now work on the FM9 (firmware 12.00); its extra blocks and preset / scene names are not available yet. A Cab block that kept your own preset's panning is now always centred; the cab measurement repeats a cab that comes back too loud more quietly instead of stopping, and resumes after a recall.",
-  "runtime": "adba6e002dffe4cf",
+  "version": "1.1.1",
+  "date": "2026-10-28",
+  "notes": "FM9: the extra blocks (compressor, wah, pitch, filter, talk box, phaser, flanger, chorus, tremolo, rotary), the Envelope Follower, the modifiers and the preset / scene names now work on the FM9 too.",
+  "runtime": "269b3954ed037062",
   "assets": {
     "app": {
-      "name": "SEAR-update-app-1.1.0.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.1.0/SEAR-update-app-1.1.0.zip",
-      "size": 120829748,
-      "sha256": "c4554787447881315d958db4a5121c29e52a9fb1ac88fca61d1d120d7e724ed0"
+      "name": "SEAR-update-app-1.1.1.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.1.1/SEAR-update-app-1.1.1.zip",
+      "size": 120830369,
+      "sha256": "91a2a1f37b8ae5f9a210fa52edd24d56fcc8958d1508cc778dd84ae8a8e04568"
     },
     "runtime": {
-      "name": "SEAR-update-runtime-adba6e002dffe4cf.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.1.0/SEAR-update-runtime-adba6e002dffe4cf.zip",
-      "size": 271503683,
-      "sha256": "5e0f681ad4c07e3b309a8d8e3b84357c8eec3e17ad607174b32316a2c20eac15"
+      "name": "SEAR-update-runtime-269b3954ed037062.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.1.1/SEAR-update-runtime-269b3954ed037062.zip",
+      "size": 271503798,
+      "sha256": "67d2f59cd9ad1cb2505d5d103495491f4a77f71ee9c52663cf3f3446f0eb00af"
     }
   },
-  "signature": "aog8HpwfiR4ypo7pxzh0xfRBG3TV2uxScTqs/zHszTvQStr43wjcBh6x4BNoos2uv19E5DX8gSH/B/XN7Ug2DA=="
+  "signature": "ia+xL1VxK4UeKZNSSbuMCtfRVJGKTHner8VDbp+DeRMT9onPA6qHiQW4z2nwtDNpilPxB8FUuO31S3rsVrOKCA=="
 }
