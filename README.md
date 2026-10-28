@@ -43,10 +43,9 @@ SEAR's source code is not here. SEAR is free.
 
 > 🇮🇹 Più sotto c'è un riassunto in italiano.
 
-> **Status: SEAR 1.1.0, Windows only — an FM3 with firmware 13.00 or an FM9 with firmware 12.00.** SEAR reads the
+> **Status: SEAR 1.1.1, Windows only — an FM3 with firmware 13.00 or an FM9 with firmware 12.00.** SEAR reads the
 > firmware and refuses a version it has not been validated on. It is tested on one FM3 and one FM9 so far: please report
-> what goes wrong. On the FM9, the extra blocks (wah, pitch, filter, compressor, talk box, modulations) and preset / scene
-> names are not available yet.
+> what goes wrong.
 
 ## What SEAR does
 
@@ -154,8 +153,7 @@ Releases, note di versione, segnalazioni, idee, domande); il codice non è qui.
 - **Serve:** Windows 10/11 a 64 bit, un FM3 con firmware 13.00 o un FM9 con firmware 12.00 collegato via USB,
   **FM3-Edit (FM9-Edit per l'FM9) aperto una volta con il dispositivo collegato prima del primo avvio** (SEAR legge da lì
   le tabelle dei parametri), l'editor chiuso mentre SEAR lavora, una tua chat AI (Claude o ChatGPT) per la ricerca del
-  rig. Sull'FM9 non ci sono ancora i blocchi extra (wah, pitch, filtro, compressore, talk box, modulazioni) e i nomi di
-  preset e scene.
+  rig.
 - **Installazione:** scarica lo zip dalle [Releases](../../releases), estrai tutta la cartella, doppio clic su
   **SEAR.exe**. Se Windows dice *"PC protetto"*: **Ulteriori informazioni** → **Esegui comunque** (SEAR non è ancora
   firmato con un certificato a pagamento). Per disinstallare basta cancellare la cartella.
