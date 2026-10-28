@@ -3,6 +3,18 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.1.1 — 2026-10-28
+
+**FM9**
+- The **extra blocks** now work on the FM9 too: compressor, wah, pitch, filter / touch-wah, talk box (Formant), phaser,
+  flanger, chorus, tremolo and rotary — in a run, a recall and a song preset — with the **Envelope Follower** and the
+  **modifiers** (the talk box's vowel following your picking).
+- SEAR now writes the **preset and scene names** on the FM9 too.
+- A modifier's source is now looked up in the FM9's own list (its pedal sources differ from the FM3's), so a modifier set
+  by SEAR always shows the source it was given.
+
+This update downloads the app package and the runtime package (the device server changed).
+
 ## 1.1.0 — 2026-10-27
 
 **FM9 (new)**
