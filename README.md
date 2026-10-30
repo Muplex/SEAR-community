@@ -43,7 +43,7 @@ SEAR's source code is not here. SEAR is free.
 
 > 🇮🇹 Più sotto c'è un riassunto in italiano.
 
-> **Status: SEAR 1.1.1, Windows only — an FM3 with firmware 13.00 or an FM9 with firmware 12.00.** SEAR reads the
+> **Status: SEAR 1.1.2, Windows only — an FM3 with firmware 13.00 or an FM9 with firmware 12.00.** SEAR reads the
 > firmware and refuses a version it has not been validated on. It is tested on one FM3 and one FM9 so far: please report
 > what goes wrong.
 
@@ -67,8 +67,8 @@ SEAR's source code is not here. SEAR is free.
 - **👂 Tweak by ear.** *Boxy*, *fizzy*, *thin*, *boomy*, *more gain*, *too wet*, *too quiet*… SEAR plays two ready-made
   corrections on your FM3 for you to compare with the record. The one you keep stays with that run, and every recall applies
   it again.
-- **🎸 Play along.** The record, or the record **without its guitar**, plays from the FM3 while you play through your song
-  preset, and SEAR **switches the scenes** at the points you marked on a coloured scene bar.
+- **🎸 Play along.** The record, or the record **without its guitar**, plays from the FM3 (its OUT 1 and headphone jack)
+  while you play through your song preset, and SEAR **switches the scenes** at the points you marked on a coloured scene bar.
 - **🎛 Your own rig.** SEAR measures a preset you built yourself against the record, without writing anything into it.
 - **Tidy.** SEAR keeps only the files it needs. *Settings → Disk space* deletes the runs you don't use.
 
