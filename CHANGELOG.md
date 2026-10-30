@@ -3,6 +3,18 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.1.2 — 2026-10-30
+
+**FM9**
+- **🎸 Play along** and recording your DI inside SEAR now play the record where you hear your guitar. SEAR asked for the
+  FM9's *USB Output Mapping* (Setup > I/O) on "1/2 → Output 2", which sends the record to OUT 2 — not to OUT 1 or the
+  headphones — and refused the right setting. It now asks for **"1/2 → Output 1, 3/4 → Output 2"** and tells you if yours
+  differs.
+- The Play along guide now says where the record plays: from your device's OUT 1 and headphone jack, not from the computer
+  (if you listen to the FM9 through its USB recording, in OBS or a DAW, you won't hear the record).
+
+This update downloads only the app package.
+
 ## 1.1.1 — 2026-10-28
 
 **FM9**
