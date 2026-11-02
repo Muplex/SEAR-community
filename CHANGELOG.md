@@ -3,6 +3,33 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.2.0 — 2026-11-02
+
+**Axe-Fx III (new)**
+- SEAR now works with the **Axe-Fx III** (firmware 33.01) as well as the FM3 and the FM9: the tone match, the cab measurement and
+  choice, **⟲ Recall**, song presets (one scene per part), recording your DI inside SEAR, **🎸 Play along**, the extra blocks
+  (compressor, wah, pitch, filter, talk box, phaser, flanger, chorus, tremolo, rotary), the Envelope Follower, the modifiers and the
+  preset and scene names. SEAR finds which unit you have from the editor on your PC (FM3-Edit, FM9-Edit or Axe-Edit III).
+- If your PC holds the data of two editors, the Home asks which unit SEAR should work with ("Use the Axe-Fx III" / "Keep the FM3");
+  your choice is saved and SEAR restarts by itself.
+- The Play along and recording your DI ask for the Axe-Fx III's *USB Output Mapping* (Setup > I/O) on "1/2 → Output 1, 3/4 → Output 2"
+  and tell you if yours differs; the record plays from OUT 1 and the headphones.
+- Not on the Axe-Fx III: SEAR does not show its CPU load (the unit does not report it) and does not export a preset file (.syx).
+
+**Every device**
+- **A delay heard on the record is measured** (its time, and how much of it and how many repeats) and set in every rig of the run,
+  instead of guessed by the research; the search never moves it.
+- **Add a scene to a song you already prepared:** a new DI of the song becomes a new scene next to the ones you have, with their
+  runs, choices and ear tweaks untouched (or redo all the scenes, as before). The rig research for it asks only about the new scene
+  and never rewrites a scene that is done.
+- The amp's **Master is never searched under 4.5** (the volume belongs to the Level, not the Master: low masters sounded boxy), and
+  the listening level is 3.5 dB higher (its peak at −8 dBFS, with a guard that never lets it clip). "Boxy" / "thin" ear tweaks on a
+  low-Master rig try the Master first.
+- An archived single rig is listed again in the Library's archives.
+- SEAR's tables no longer stop reading the editor's data when one of your user-cab names is empty.
+
+This update downloads the app package and the runtime package.
+
 ## 1.1.2 — 2026-10-30
 
 **FM9**
