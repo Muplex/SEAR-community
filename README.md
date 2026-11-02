@@ -1,6 +1,6 @@
 # SEAR
 
-**Sound-Estimation & Auto-Refinement** — get a recorded guitar tone on your FM3 or FM9.
+**Sound-Estimation & Auto-Refinement** — get a recorded guitar tone on your FM3, FM9 or Axe-Fx III.
 
 [![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&logoColor=white&style=for-the-badge)](https://paypal.me/Muplex)
 
@@ -43,8 +43,8 @@ SEAR's source code is not here. SEAR is free.
 
 > 🇮🇹 Più sotto c'è un riassunto in italiano.
 
-> **Status: SEAR 1.1.2, Windows only — an FM3 with firmware 13.00 or an FM9 with firmware 12.00.** SEAR reads the
-> firmware and refuses a version it has not been validated on. It is tested on one FM3 and one FM9 so far: please report
+> **Status: SEAR 1.2.0, Windows only — an FM3 with firmware 13.00, an FM9 with firmware 12.00 or an Axe-Fx III with firmware 33.01.** SEAR reads the
+> firmware and refuses a version it has not been validated on. It is tested on one FM3, one FM9 and one Axe-Fx III so far: please report
 > what goes wrong.
 
 ## What SEAR does
@@ -75,12 +75,12 @@ SEAR's source code is not here. SEAR is free.
 ## What you need
 
 - **Windows 10 or 11, 64-bit**, about 3 GB of free disk space (5 GB with the optional RoFormer separator).
-- **An FM3 with firmware 13.00 or an FM9 with firmware 12.00**, connected by USB, with its USB audio driver — it is
-  installed with **FM3-Edit** / **FM9-Edit** (free, from the maker's site).
-- **Open FM3-Edit (FM9-Edit for an FM9) once with the device connected before SEAR's first start**, and let it read the
+- **An FM3 with firmware 13.00, an FM9 with firmware 12.00 or an Axe-Fx III with firmware 33.01**, connected by USB, with its USB audio driver — it is
+  installed with **FM3-Edit** / **FM9-Edit** / **Axe-Edit III** (free, from the maker's site).
+- **Open FM3-Edit (FM9-Edit for an FM9, Axe-Edit III for an Axe-Fx III) once with the device connected before SEAR's first start**, and let it read the
   device. SEAR reads its parameter tables from the editor's data on your PC (they are not included in SEAR). After a
   firmware update, do it again.
-- **FM3-Edit / FM9-Edit closed** while SEAR talks to the device.
+- **FM3-Edit / FM9-Edit / Axe-Edit III closed** while SEAR talks to the device.
 - **Your own AI chat** (Claude or ChatGPT, with web search) for the rig research: SEAR writes the question, you paste it,
   and SEAR checks the answer.
 
@@ -136,7 +136,7 @@ SEAR is free. If it helps your tone, a voluntary donation helps keep it growing:
 
 ## In italiano
 
-**SEAR** è un'app gratuita per Windows che ti aiuta a ottenere sull'FM3 o sull'FM9 il suono di chitarra di un disco: suoni la parte
+**SEAR** è un'app gratuita per Windows che ti aiuta a ottenere sull'FM3, sull'FM9 o sull'Axe-Fx III il suono di chitarra di un disco: suoni la parte
 sopra il disco, SEAR separa la chitarra del disco, prova dei rig sul **tuo** FM3, ne regola le manopole misurando il suono
 e lascia il risultato nel preset di lavoro, che salvi tu. Questo repository è la casa pubblica di SEAR (download nelle
 Releases, note di versione, segnalazioni, idee, domande); il codice non è qui.
@@ -150,8 +150,8 @@ Releases, note di versione, segnalazioni, idee, domande); il codice non è qui.
   - 👂 ritocchi a orecchio (*inscatolato*, *zanzaroso*, *magro*, *più gain*…);
   - 🎸 **Suona con il brano**: il disco, anche senza la sua chitarra, esce dall'FM3 e SEAR cambia le scene nei punti che hai segnato;
   - 🎛 misura un rig fatto da te.
-- **Serve:** Windows 10/11 a 64 bit, un FM3 con firmware 13.00 o un FM9 con firmware 12.00 collegato via USB,
-  **FM3-Edit (FM9-Edit per l'FM9) aperto una volta con il dispositivo collegato prima del primo avvio** (SEAR legge da lì
+- **Serve:** Windows 10/11 a 64 bit, un FM3 con firmware 13.00, un FM9 con firmware 12.00 o un Axe-Fx III con firmware 33.01 collegato via USB,
+  **FM3-Edit (FM9-Edit per l'FM9, Axe-Edit III per l'Axe-Fx III) aperto una volta con il dispositivo collegato prima del primo avvio** (SEAR legge da lì
   le tabelle dei parametri), l'editor chiuso mentre SEAR lavora, una tua chat AI (Claude o ChatGPT) per la ricerca del
   rig.
 - **Installazione:** scarica lo zip dalle [Releases](../../releases), estrai tutta la cartella, doppio clic su
@@ -166,7 +166,7 @@ Releases, note di versione, segnalazioni, idee, domande); il codice non è qui.
 ---
 
 SEAR is an independent project, not affiliated with, endorsed or sponsored by Fractal Audio Systems. FM3, FM9, FM3-Edit,
-FM9-Edit and Axe-Fx are trademarks of Fractal Audio Systems, named here only to identify the hardware SEAR works with. Windows is a
+FM9-Edit, Axe-Fx and Axe-Edit are trademarks of Fractal Audio Systems, named here only to identify the hardware SEAR works with. Windows is a
 trademark of Microsoft; ASIO is a trademark of Steinberg Media Technologies GmbH.
 
 
