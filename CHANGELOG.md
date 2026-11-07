@@ -3,6 +3,26 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.2.1 — 2026-11-07
+
+**Every device**
+- **A fresh install no longer stops at its first music folder.** Pressing "Use this folder" before any song existed failed with
+  "no such file or directory … data\Songs". It works now, and **drives A: and B:** show up in the folder picker (they were skipped).
+- **👂 Tweak by ear: three more complaints** — *Dull / dark*, *Muddy / woolly* and *Doesn't cut through*. The two ready-made
+  corrections are now measured in audible steps (a touch ≈ 4, a firm one ≈ 10): when one comes out too small or too big on your
+  amp, SEAR makes it again once with the knobs scaled, and it tells you when the two sound almost the same. The comparison plays
+  at the level of the run as it is now (not at the quietest sound's) and has its own **Listening volume** slider; it never changes
+  the run's volume on the FM3.
+- **A compressor that squeezes the sound can no longer win.** When a rig with its compressor on leaves the capture clearly less
+  dynamic than the record, it cannot be chosen, and the same rig is tried without the compressor.
+- **A guitar buried in the mix is trusted less.** SEAR measures how much of the record the separated guitar really is. When it is
+  a small part (drowned by bass, drums and voice), the final EQ stays close to ±1.5 dB where the guitar is masked, instead of
+  copying what the separator left of it — the cause of closed, thin results on some songs. A guitar that is clear in the mix
+  changes nothing.
+- The amp's **Sag** is only raised by the search when it clearly earns it (it used to be raised for a tiny gain and taken back by ear).
+
+This update downloads only the app package.
+
 ## 1.2.0 — 2026-11-02
 
 **Axe-Fx III (new)**
