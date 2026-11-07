@@ -43,7 +43,7 @@ SEAR's source code is not here. SEAR is free.
 
 > 🇮🇹 Più sotto c'è un riassunto in italiano.
 
-> **Status: SEAR 1.2.0, Windows only — an FM3 with firmware 13.00, an FM9 with firmware 12.00 or an Axe-Fx III with firmware 33.01.** SEAR reads the
+> **Status: SEAR 1.2.1, Windows only — an FM3 with firmware 13.00, an FM9 with firmware 12.00 or an Axe-Fx III with firmware 33.01.** SEAR reads the
 > firmware and refuses a version it has not been validated on. It is tested on one FM3, one FM9 and one Axe-Fx III so far: please report
 > what goes wrong.
 
@@ -59,14 +59,16 @@ SEAR's source code is not here. SEAR is free.
   names). You paste the answer back and SEAR checks it.
 - **Tone match on your FM3.** SEAR screens the candidate rigs and all 2048 factory cabs (once measured on your FM3), then
   tunes the knobs until no move is audibly better, and adds a final EQ. Clean, crunch and high-gain parts are handled
-  differently, and a rig more distorted than the record is never chosen. You watch it live and can stop it at any time.
+  differently, and a rig more distorted than the record is never chosen (nor one whose compressor squeezes the sound flatter
+  than the record). When the record's guitar is buried in the mix, SEAR trusts the separated guitar less and keeps the final
+  EQ close to flat where the guitar is masked. You watch it live and can stop it at any time.
 - **Continue instead of starting over.** A part that already has a good run continues from it: no new screening, about 4-6
   minutes. This is the default for one part and for every part of a whole song.
 - **A whole song in one preset.** One scene per section (clean, rhythm, lead), each matched and leveled against the
   others. **⟲ Recall** rebuilds it on the FM3 in about a minute and leaves alone the scenes that are already right.
-- **👂 Tweak by ear.** *Boxy*, *fizzy*, *thin*, *boomy*, *more gain*, *too wet*, *too quiet*… SEAR plays two ready-made
-  corrections on your FM3 for you to compare with the record. The one you keep stays with that run, and every recall applies
-  it again.
+- **👂 Tweak by ear.** *Boxy*, *dull*, *fizzy*, *thin*, *muddy*, *boomy*, *doesn't cut through*, *more gain*, *too wet*, *too
+  quiet*… SEAR plays two ready-made corrections on your FM3 for you to compare with the record, at the volume of the run as it
+  is now. The one you keep stays with that run, and every recall applies it again.
 - **🎸 Play along.** The record, or the record **without its guitar**, plays from the FM3 (its OUT 1 and headphone jack)
   while you play through your song preset, and SEAR **switches the scenes** at the points you marked on a coloured scene bar.
 - **🎛 Your own rig.** SEAR measures a preset you built yourself against the record, without writing anything into it.
@@ -147,7 +149,7 @@ Releases, note di versione, segnalazioni, idee, domande); il codice non è qui.
   - fa la ricerca del rig con la tua AI, poi lo screening dei rig e dei 2048 cab di fabbrica e la taratura delle manopole sul tuo FM3;
   - un run già buono si continua invece di ripartire da zero;
   - mette una canzone intera in un preset (una scena per sezione) con ⟲ Richiama;
-  - 👂 ritocchi a orecchio (*inscatolato*, *zanzaroso*, *magro*, *più gain*…);
+  - 👂 ritocchi a orecchio (*inscatolato*, *spento*, *zanzaroso*, *magro*, *fangoso*, *non buca*, *più gain*…);
   - 🎸 **Suona con il brano**: il disco, anche senza la sua chitarra, esce dall'FM3 e SEAR cambia le scene nei punti che hai segnato;
   - 🎛 misura un rig fatto da te.
 - **Serve:** Windows 10/11 a 64 bit, un FM3 con firmware 13.00, un FM9 con firmware 12.00 o un Axe-Fx III con firmware 33.01 collegato via USB,
