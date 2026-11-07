@@ -1,21 +1,21 @@
 {
-  "version": "1.2.0",
-  "date": "2026-11-02",
-  "notes": "Axe-Fx III: SEAR now works with it (tone match, cab measurement, recall, song presets, DI recording, play along, extra blocks, names). Every device: a delay heard on the record is measured and set in every rig; the amp's Master is never searched under 4.5 and the listening level is 3.5 dB higher; a new scene can be added to a song you already prepared.",
+  "version": "1.2.1",
+  "date": "2026-11-07",
+  "notes": "Fixes the first music folder of a fresh install (and drives A: / B:). Three new ear tweaks (dull, muddy, doesn't cut through), measured in audible steps, with a volume slider for the comparison. A compressor that squeezes the sound can no longer win, and a guitar buried in the mix is trusted less.",
   "runtime": "42cd3be931463b8e",
   "assets": {
     "app": {
-      "name": "SEAR-update-app-1.2.0.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.2.0/SEAR-update-app-1.2.0.zip",
-      "size": 120860853,
-      "sha256": "51cb3038cd52750a45b8621090778c5650b4eeb1e4ffac4373ad7de7ccb99af0"
+      "name": "SEAR-update-app-1.2.1.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.2.1/SEAR-update-app-1.2.1.zip",
+      "size": 120876343,
+      "sha256": "cfe57862d21cf77f9ce2a68bdc3cd7e5db2f9a707f311cbc9048cdca1ac43f53"
     },
     "runtime": {
       "name": "SEAR-update-runtime-42cd3be931463b8e.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.2.0/SEAR-update-runtime-42cd3be931463b8e.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.2.1/SEAR-update-runtime-42cd3be931463b8e.zip",
       "size": 271503831,
-      "sha256": "d1c1c1fbfc56b1f40afcbb34e7b07f27e29a0f7ef7a52851d46d286d1e72761f"
+      "sha256": "d337b43690e60e55f2ee7754e7e4913685ab7da080d71c51353bb4c903772110"
     }
   },
-  "signature": "z1PVzZQg8SeGgrYciKybk/XBEDyNLI/216bagnYzICjEqNK5B9dTcEV2ipngntlHmqMr/nPkUOSDfFvMGcVpCA=="
+  "signature": "33WCbs/XjngEUnzLLRMzhO+zw3VPqlVG3oMXsyia9YOT0yTbYg7Ko9ZwecAhmzqDwwpBPPnDzd3rHlP1IcT4Ag=="
 }
