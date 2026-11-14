@@ -56,7 +56,9 @@ SEAR's source code is not here. SEAR is free.
   holds the ways you play in it: palm mutes, low notes, high notes, soft playing. Drag the window elsewhere and it tells
   you what is left out.
 - **The rig research, with your own AI.** SEAR writes the question (the song, the rules it learned, the exact FM3 model
-  names). You paste the answer back and SEAR checks it.
+  names and what they stand for). You paste the answer back and SEAR checks it, including the sentence of the source that
+  names the amp: an undocumented amp lets the audio choose among more rigs. Or **compose the rig by hand** on the grid
+  (blocks, order, models) and let SEAR tune it.
 - **Tone match on your FM3.** SEAR screens the candidate rigs and all 2048 factory cabs (once measured on your FM3), then
   tunes the knobs until no move is audibly better, and adds a final EQ. Clean, crunch and high-gain parts are handled
   differently, and a rig more distorted than the record is never chosen (nor one whose compressor squeezes the sound flatter
@@ -71,6 +73,8 @@ SEAR's source code is not here. SEAR is free.
   is now. The one you keep stays with that run, and every recall applies it again.
 - **🎸 Play along.** The record, or the record **without its guitar**, plays from the FM3 (its OUT 1 and headphone jack)
   while you play through your song preset, and SEAR **switches the scenes** at the points you marked on a coloured scene bar.
+- **🎤 Setlists and the Stage.** Build your setlists, check them with a traffic light, and play the evening on the Stage:
+  SEAR builds each song's rig during the pause, the drummer sees the song's real beats and bars, the singer the lyrics.
 - **🎛 Your own rig.** SEAR measures a preset you built yourself against the record, without writing anything into it.
 - **Tidy.** SEAR keeps only the files it needs. *Settings → Disk space* deletes the runs you don't use.
 
@@ -125,7 +129,9 @@ settings are kept. What changed in each version: [CHANGELOG.md](CHANGELOG.md).
 
 SEAR runs on your PC and its page is only on your own computer. It goes online only to check for and download updates
 (here, on GitHub), to look for an already-reported error, for band / album pictures (Wikipedia, MusicBrainz — on by
-default, off in ⚙ Settings) and, only if you ask for it, to install the optional RoFormer separator. No telemetry, no account. Details: the `EULA.md`
+default, off in ⚙ Settings), for the lyrics of the singer's view (LRCLIB, with artist, title, album and length only — on by
+default, off in ⚙ Settings) and, only if you ask for it, to install the optional RoFormer separator or the rhythm reader
+(Hugging Face). No telemetry, no account. Details: the `EULA.md`
 in SEAR's folder.
 
 ## Support SEAR
@@ -146,11 +152,14 @@ Releases, note di versione, segnalazioni, idee, domande); il codice non è qui.
 - **Cosa fa:**
   - registri la tua DI sopra il disco (MP3, WAV, FLAC, M4A, ognuno allo stesso volume);
   - SEAR propone i 6 secondi che contengono i tuoi modi di suonare (palm-mute, note gravi e acute, parti piano);
-  - fa la ricerca del rig con la tua AI, poi lo screening dei rig e dei 2048 cab di fabbrica e la taratura delle manopole sul tuo FM3;
+  - fa la ricerca del rig con la tua AI (controllando la frase della fonte che nomina l'ampli), oppure componi tu il rig sulla griglia,
+    poi lo screening dei rig e dei 2048 cab di fabbrica e la taratura delle manopole sul tuo FM3;
   - un run già buono si continua invece di ripartire da zero;
   - mette una canzone intera in un preset (una scena per sezione) con ⟲ Richiama;
   - 👂 ritocchi a orecchio (*inscatolato*, *spento*, *zanzaroso*, *magro*, *fangoso*, *non buca*, *più gain*…);
   - 🎸 **Suona con il brano**: il disco, anche senza la sua chitarra, esce dall'FM3 e SEAR cambia le scene nei punti che hai segnato;
+  - 🎤 **Le mie scalette** e il **Palco**: il semaforo controlla la serata, SEAR prepara il rig di ogni brano nella pausa, il
+    batterista vede i battiti e le battute veri del brano, il cantante il testo (da LRCLIB, disattivabile nelle Impostazioni);
   - 🎛 misura un rig fatto da te.
 - **Serve:** Windows 10/11 a 64 bit, un FM3 con firmware 13.00, un FM9 con firmware 12.00 o un Axe-Fx III con firmware 33.01 collegato via USB,
   **FM3-Edit (FM9-Edit per l'FM9, Axe-Edit III per l'Axe-Fx III) aperto una volta con il dispositivo collegato prima del primo avvio** (SEAR legge da lì
