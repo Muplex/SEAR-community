@@ -3,6 +3,49 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.3.0 — 2026-11-14
+
+**Play live: setlists and the Stage**
+- **My setlists.** Up to 10 setlists of up to 36 songs each: drag the songs from the Library, add notes and pauses (silence,
+  talk, a guitar intro, a tap), give each setlist its own background. A summary shows how long the evening lasts and how loud
+  each record plays. A **traffic light** says what is ready, what you should check and what would stop the evening, with a
+  button that fixes each warning.
+- **The Stage** plays the evening song by song: the count-in, the song, the pause. During the pause SEAR builds the next
+  song's rig on an empty preset you choose (only a rig that is tuned and levelled), or loads nothing if you prefer to choose
+  presets yourself. The count starts only when the next preset is ready.
+- **The drummer's view and the singer's view**, on the Stage and in 🎸 Play along: the drummer sees the song's real beats
+  and bars, the stops and the sections coming up; the singer sees the lyrics scroll with the song. *All together* keeps the
+  lyrics on the screen and the beat as a frame of light along its edges.
+- **Rhythm reader** (optional, installed from the Home, about 190 MB): it reads a record's beats and the length of each bar
+  without assuming 4/4. You can correct it by ear in the rhythm map (half / double time, where the "one" is, stops, fills).
+- **Lyrics** are found on LRCLIB by artist, title, album and length (never audio; on by default, off in ⚙ Settings or on the
+  Home). The Stage itself never goes online.
+- **FAST LOAD** (off by default): SEAR stores each song's rig in a range of preset slots that you choose, so a song changes
+  in about 10 seconds. It writes only into slots that are empty or that SEAR stored before, and checks each one by reading
+  it back; a preset of yours is never touched.
+
+**Tone**
+- **Compose a rig by hand** (FM3, FM9, Axe-Fx III): choose the blocks, their order and the models on the grid. SEAR checks
+  the path and the level (and the CPU where the unit reports it), then tunes the knobs, the cab and the final EQ, keeping your models.
+- **A better rig research.** The question for your AI now asks it to work out which version of the song it is and who plays
+  the part, to look where a session is really documented, and to quote the sentence that names the amp. SEAR keeps the
+  research's confidence no higher than that proof, so when the amp is not documented, the audio chooses among more rigs. After
+  the import you see that sentence and its link.
+- **👂 Presence check:** no fault to name. The amp's presence a touch darker and a touch brighter, and you say which one is
+  right, or that it is right as it is.
+- **⟲ Recall** now also sets the cab block on or off as the run had it (a cab found bypassed stayed bypassed).
+- The run page shows **how the rig was made** (the separation, the reference guitar, the research, SEAR's version, and what
+  every recall wrote and read back) and can measure **how firm the cab choice is**.
+- A tweak by ear keeps its two short recordings (about 2 MB) with its run, so what the ear chose can be studied later.
+
+**The page**
+- Tabs *Home · Library · Run · Settings*. No more browser pop-ups: notices and questions appear in the page, and an error
+  tells you what to do. Clearer buttons and states; the Stage's commands in three groups.
+- Fixed: deleting a take of a prepared song failed ("EISDIR"). A PC that shuts down while SEAR saves can no longer leave a
+  half-written choice, tweak or level file.
+
+This update downloads only the app package.
+
 ## 1.2.1 — 2026-11-07
 
 **Every device**
