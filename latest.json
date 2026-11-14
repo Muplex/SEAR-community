@@ -1,21 +1,21 @@
 {
-  "version": "1.2.1",
-  "date": "2026-11-07",
-  "notes": "Fixes the first music folder of a fresh install (and drives A: / B:). Three new ear tweaks (dull, muddy, doesn't cut through), measured in audible steps, with a volume slider for the comparison. A compressor that squeezes the sound can no longer win, and a guitar buried in the mix is trusted less.",
+  "version": "1.3.0",
+  "date": "2026-11-14",
+  "notes": "Setlists and the Stage (drummer's and singer's views, rhythm reader, lyrics, FAST LOAD), the rig composed by hand, a better rig research, the presence check, how a rig was made, a clearer page.",
   "runtime": "42cd3be931463b8e",
   "assets": {
     "app": {
-      "name": "SEAR-update-app-1.2.1.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.2.1/SEAR-update-app-1.2.1.zip",
-      "size": 120876343,
-      "sha256": "cfe57862d21cf77f9ce2a68bdc3cd7e5db2f9a707f311cbc9048cdca1ac43f53"
+      "name": "SEAR-update-app-1.3.0.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.3.0/SEAR-update-app-1.3.0.zip",
+      "size": 121128409,
+      "sha256": "a6c9b556b2228c261b8b93242688e6330a7b7a48943c0471471966aa405d7d35"
     },
     "runtime": {
       "name": "SEAR-update-runtime-42cd3be931463b8e.zip",
-      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.2.1/SEAR-update-runtime-42cd3be931463b8e.zip",
+      "url": "https://github.com/Muplex/SEAR-community/releases/download/v1.3.0/SEAR-update-runtime-42cd3be931463b8e.zip",
       "size": 271503831,
-      "sha256": "d337b43690e60e55f2ee7754e7e4913685ab7da080d71c51353bb4c903772110"
+      "sha256": "8993cc14b161e993c47228e82f2c50ec65bcc23ef12764dfb9bc1a28b1cc9228"
     }
   },
-  "signature": "33WCbs/XjngEUnzLLRMzhO+zw3VPqlVG3oMXsyia9YOT0yTbYg7Ko9ZwecAhmzqDwwpBPPnDzd3rHlP1IcT4Ag=="
+  "signature": "tiQPbEU018VCGRbth8OaI0kTUQcxYTN052gtE6k3ntCuENzeUBqSOGnEiNfx46qLD4W/daqKTk0yMUy67+uDBQ=="
 }
