@@ -3,6 +3,44 @@
 What changed in each SEAR version. The newest first. SEAR's own "Check for updates" and its automatic update read
 [`latest.json`](latest.json).
 
+## 1.4.0 — 2026-11-19
+
+**Faster on the unit** (FM3, FM9 and Axe-Fx III, each checked on a real unit)
+- **A bypass, scene or channel change ends when the unit answers**, instead of a fixed wait: about 260 ms → 40 ms each. On the
+  FM3 a full recall of a song is about 10 seconds shorter.
+- **SEAR's preset watch reads only what it compares** (the grid, the scene and the model blocks), and a preset SEAR only read no
+  longer counts as edited: a setlist can move on from it without asking you to discard anything.
+- **The guitar separation is faster** (a section with RoFormer: about 100 → 87 s), with exactly the same stems as before.
+
+**Firmware updates need no new SEAR**
+- When your unit runs a firmware SEAR does not know yet, SEAR checks it by itself from your editor's files. If nothing SEAR uses
+  has moved, it works at once; otherwise SEAR tells its developer, who checks it and adds it to a signed list that every SEAR reads.
+  A change only in blocks SEAR never uses is accepted on your PC too.
+- **Axe-Fx III firmware 33.02** is supported.
+
+**Problem reports go straight to the developer**
+- When a job fails because of an error SEAR cannot explain, SEAR sends the report to its developer by itself, once per problem:
+  the versions, which job failed and the last lines of its log, without your folders, user name or e-mail. Never when you press
+  ■ Stop, and never for a problem SEAR already tells you how to fix. You can turn it off in ⚙ Settings › *Reports to SEAR's developer*.
+- The 🐞 button now **sends** the report (you see it first and can add what you were doing): no GitHub account needed.
+
+**Tone**
+- **The opened reference.** The separator takes energy away from the guitar where other instruments cover it. For new parts SEAR
+  now matches a guitar stem with that energy given back; in a blind test it sounded as close or closer to the record in 5 parts
+  of 6. Parts prepared before keep the reference they have.
+- The search gives every knob its first turn before the phase's time is up, and a compressor is no longer ruled out on a staccato
+  part when the same rig without it sounds the same.
+
+**Recording your DI**
+- The wizard's steps are the way back. While a guitar separation is running, the recorder waits for it and opens by itself.
+  *Redo all scenes* really redoes the preparation, and *↺ Redo* on a take records it again.
+
+**Also**
+- Messages name your unit (some said "FM3" on an FM9 or an Axe-Fx III).
+- ASIO is a trademark of Steinberg Media Technologies GmbH, registered in Europe and other countries.
+
+This update downloads the app and the new runtime package.
+
 ## 1.3.0 — 2026-11-14
 
 **Play live: setlists and the Stage**
