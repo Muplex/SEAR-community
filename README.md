@@ -43,9 +43,10 @@ SEAR's source code is not here. SEAR is free.
 
 > 🇮🇹 Più sotto c'è un riassunto in italiano.
 
-> **Status: SEAR 1.2.1, Windows only — an FM3 with firmware 13.00, an FM9 with firmware 12.00 or an Axe-Fx III with firmware 33.01.** SEAR reads the
-> firmware and refuses a version it has not been validated on. It is tested on one FM3, one FM9 and one Axe-Fx III so far: please report
-> what goes wrong.
+> **Status: SEAR 1.4.0, Windows only — an FM3 with firmware 13.00, an FM9 with firmware 12.00 or an Axe-Fx III with firmware 33.01 or 33.02.**
+> SEAR reads the firmware: a version it does not know yet is checked by SEAR itself from your editor's files and used at once when nothing
+> SEAR relies on has moved; otherwise it waits for the developer's check. It is tested on one FM3, one FM9 and one Axe-Fx III so far:
+> please report what goes wrong.
 
 ## What SEAR does
 
@@ -81,7 +82,7 @@ SEAR's source code is not here. SEAR is free.
 ## What you need
 
 - **Windows 10 or 11, 64-bit**, about 3 GB of free disk space (5 GB with the optional RoFormer separator).
-- **An FM3 with firmware 13.00, an FM9 with firmware 12.00 or an Axe-Fx III with firmware 33.01**, connected by USB, with its USB audio driver — it is
+- **An FM3 with firmware 13.00, an FM9 with firmware 12.00 or an Axe-Fx III with firmware 33.01 / 33.02**, connected by USB, with its USB audio driver — it is
   installed with **FM3-Edit** / **FM9-Edit** / **Axe-Edit III** (free, from the maker's site).
 - **Open FM3-Edit (FM9-Edit for an FM9, Axe-Edit III for an Axe-Fx III) once with the device connected before SEAR's first start**, and let it read the
   device. SEAR reads its parameter tables from the editor's data on your PC (they are not included in SEAR). After a
@@ -112,13 +113,15 @@ settings are kept. What changed in each version: [CHANGELOG.md](CHANGELOG.md).
 
 ## Reporting a problem
 
-1. **From SEAR (best):** press **🐞 Report** on a failed job, or ⚙ Settings → "Something wrong?". SEAR prepares the report
-   with the log, the version and the settings — your paths and user name removed — and sends nothing by itself. It also
-   looks here for the same error (its `E-xxxxxxxx` code in the title): if it is already reported, add yours as a
-   **comment**.
-2. **By hand:** [open an issue](../../issues/new/choose) with the **Bug** form.
-3. **Without a GitHub account:** "Save the report" in SEAR's report window, then e-mail the file to
-   **sear.beta.reports@gmail.com**.
+1. **By itself:** when a job fails because of an error SEAR cannot explain, SEAR sends the report to its developer, once
+   per problem — the versions, which job failed and the last lines of its log, your folders, user name and e-mail removed.
+   Never when you press ■ Stop, never for a problem SEAR already tells you how to fix. Off in ⚙ Settings → *Reports to
+   SEAR's developer*.
+2. **From SEAR:** press **🐞 Report** on a failed job, or ⚙ Settings → "Something wrong?". You see the report, add what you
+   were doing, and press **Send to SEAR's developer** (no GitHub account needed). Reports go to the developer's private
+   repository: nobody else sees them.
+3. **In public:** [open an issue](../../issues/new/choose) here with the **Bug** form.
+4. **Offline:** "Save the report" in SEAR's report window, then e-mail the file to **sear.beta.reports@gmail.com**.
 
 ## Ideas and questions
 
@@ -128,11 +131,12 @@ settings are kept. What changed in each version: [CHANGELOG.md](CHANGELOG.md).
 ## Privacy
 
 SEAR runs on your PC and its page is only on your own computer. It goes online only to check for and download updates
-(here, on GitHub), to look for an already-reported error, for band / album pictures (Wikipedia, MusicBrainz — on by
-default, off in ⚙ Settings), for the lyrics of the singer's view (LRCLIB, with artist, title, album and length only — on by
-default, off in ⚙ Settings) and, only if you ask for it, to install the optional RoFormer separator or the rhythm reader
-(Hugging Face). No telemetry, no account. Details: the `EULA.md`
-in SEAR's folder.
+(here, on GitHub), to send problem reports and the result of a check of a firmware it does not know yet to its developer
+(through SEAR's relay, into his private repository — both on by default, off in ⚙ Settings; never your folders, name, songs'
+audio or cab names), for band / album pictures (Wikipedia, MusicBrainz — on by default, off in ⚙ Settings), for the lyrics
+of the singer's view (LRCLIB, with artist, title, album and length only — on by default, off in ⚙ Settings) and, only if
+you ask for it, to install the optional RoFormer separator or the rhythm reader (Hugging Face). No tracking, no account.
+Details: the `EULA.md` in SEAR's folder.
 
 ## Support SEAR
 
@@ -161,7 +165,7 @@ Releases, note di versione, segnalazioni, idee, domande); il codice non è qui.
   - 🎤 **Le mie scalette** e il **Palco**: il semaforo controlla la serata, SEAR prepara il rig di ogni brano nella pausa, il
     batterista vede i battiti e le battute veri del brano, il cantante il testo (da LRCLIB, disattivabile nelle Impostazioni);
   - 🎛 misura un rig fatto da te.
-- **Serve:** Windows 10/11 a 64 bit, un FM3 con firmware 13.00, un FM9 con firmware 12.00 o un Axe-Fx III con firmware 33.01 collegato via USB,
+- **Serve:** Windows 10/11 a 64 bit, un FM3 con firmware 13.00, un FM9 con firmware 12.00 o un Axe-Fx III con firmware 33.01 / 33.02 collegato via USB,
   **FM3-Edit (FM9-Edit per l'FM9, Axe-Edit III per l'Axe-Fx III) aperto una volta con il dispositivo collegato prima del primo avvio** (SEAR legge da lì
   le tabelle dei parametri), l'editor chiuso mentre SEAR lavora, una tua chat AI (Claude o ChatGPT) per la ricerca del
   rig.
@@ -170,15 +174,17 @@ Releases, note di versione, segnalazioni, idee, domande); il codice non è qui.
   firmato con un certificato a pagamento). Per disinstallare basta cancellare la cartella.
 - **Aggiornamenti:** automatici; SEAR scarica la versione nuova, ne controlla la firma e ti propone **"Riavvia per
   aggiornare"**. Canzoni, run e impostazioni restano.
-- **Problemi:** **🐞 Segnala** dentro SEAR; senza account GitHub "Salva il rapporto" e invia il file a
-  **sear.beta.reports@gmail.com**. **Idee:** una issue con il modulo *Idea*. **Domande:** le
+- **Problemi:** quando un lavoro fallisce per un errore che SEAR non sa spiegare, SEAR manda da solo la segnalazione allo
+  sviluppatore (senza cartelle, nome utente ed e-mail; mai per il tuo ■ Stop; si spegne in ⚙ Impostazioni). Con **🐞 Segnala**
+  la vedi, aggiungi cosa stavi facendo e premi **Invia allo sviluppatore**, senza account GitHub. Senza internet: "Salva il
+  rapporto" e invia il file a **sear.beta.reports@gmail.com**. **Idee:** una issue con il modulo *Idea*. **Domande:** le
   [Discussions](../../discussions).
 
 ---
 
 SEAR is an independent project, not affiliated with, endorsed or sponsored by Fractal Audio Systems. FM3, FM9, FM3-Edit,
 FM9-Edit, Axe-Fx and Axe-Edit are trademarks of Fractal Audio Systems, named here only to identify the hardware SEAR works with. Windows is a
-trademark of Microsoft; ASIO is a trademark of Steinberg Media Technologies GmbH.
+trademark of Microsoft. ASIO is a trademark of Steinberg Media Technologies GmbH, registered in Europe and other countries.
 
 
 ```
